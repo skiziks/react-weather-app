@@ -1,0 +1,152 @@
+/* import local font */
+
+@font-face {
+    font-family: 'light';
+    src: url('../fonts/static/RedHatDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../fonts/static/RedHatDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/static/RedHatDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black';
+    src: url('../fonts/static/RedHatDisplay-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'extra-bold';
+    src: url('../fonts/static/RedHatDisplay-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/static/RedHatDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'semi-bold';
+    src: url('../fonts/static/RedHatDisplay-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'light-italic';
+    src: url('../fonts/static/RedHatDisplay-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'medium-italic';
+    src: url('../fonts/static/RedHatDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold-italic';
+    src: url('../fonts/static/RedHatDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black-italic';
+    src: url('../fonts/static/RedHatDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'extra-bold-italic';
+    src: url('../fonts/static/RedHatDisplay-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'regular-italic';
+    src: url('../fonts/static/RedHatDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'semi-bold-italic';
+    src: url('../fonts/static/RedHatDisplay-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    /* font-family: thin, sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+}
+
+*::after *::before {
+    box-sizing: border-box;
+}
+
+body {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    background-color: black;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 0.5px solid grey;
+    opacity: 0.5;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -400px;
+    left: -200px;
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    background-color: #d7963f;
+    filter: blur(200px);
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    top: -100px;
+    left: -200px;
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    background: #4E4B70;
+    filter: blur(200px);
+}

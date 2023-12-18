@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_middlePart {
+    width: auto;
+    height: 30vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.weather_description_temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather_description {
+    font-family: medium;
+    text-transform: uppercase;
+}
+
+.weather_temp {
+    font-family: bold;
+    font-size: 5rem;
+    margin: auto;
+    font-family: bold;
+    text-transform: uppercase;
+}
+
+.after {
+    font-family: light;
+    color: #c8c7d0;
+}

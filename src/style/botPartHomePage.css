@@ -1,0 +1,72 @@
+img {
+    width: 2rem;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.soleil,
+.section_air,
+.section_preci_press {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.lever_soleil,
+.coucher_soleil {
+    width: fit-content;
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+/* 
+.section_air {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} */
+
+.section_preci_press {
+    margin-bottom: 50px;
+}
+
+.air,
+.humidity {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name_sunrise,
+.name_sunset,
+.wind_name,
+.humidity_name,
+.preci_name,
+.press_name {
+    font-family: Light;
+    font-size: 1rem;
+}
+
+.hour_sunset,
+.hour_sunrise {
+    font-family: bold;
+}
+
+.humidity_value,
+.wind_value,
+.press_value,
+.preci_value {
+    font-family: bold;
+    font-size: 1.5rem;
+}
+
+.coucher_soleil,
+.humidity,
+.pressure {
+    text-align: right;
+}
