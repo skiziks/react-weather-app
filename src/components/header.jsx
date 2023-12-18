@@ -5,7 +5,7 @@ import '../style/header.css';
 function Header(props) {
     const donnees = props.donnees;
 
-    console.log(donnees);
+    // console.log(donnees);
 
     let Hello_message = "";
     let date = new Date();
