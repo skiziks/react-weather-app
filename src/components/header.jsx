@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLocationArrow } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import '../style/header.css';
 
 function Header(props) {
@@ -28,7 +28,7 @@ function Header(props) {
             <section className="container">
                 {donnees && (
                     <>
-                        <p className='city'>{donnees.name} <FaLocationArrow /></p>
+                        <p className='city'>{donnees.name} <FaMapMarkerAlt /></p>
                         <p className='hello'>{Hello_message}</p>
                     </>
                 )}

@@ -2,98 +2,98 @@
 
 @font-face {
     font-family: 'light';
-    src: url('../fonts/static/RedHatDisplay-Light.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'medium';
-    src: url('../fonts/static/RedHatDisplay-Medium.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bold';
-    src: url('../fonts/static/RedHatDisplay-Bold.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'black';
-    src: url('../fonts/static/RedHatDisplay-Black.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'extra-bold';
-    src: url('../fonts/static/RedHatDisplay-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-ExtraBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'regular';
-    src: url('../fonts/static/RedHatDisplay-Regular.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'semi-bold';
-    src: url('../fonts/static/RedHatDisplay-SemiBold.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'light-italic';
-    src: url('../fonts/static/RedHatDisplay-LightItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-LightItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'medium-italic';
-    src: url('../fonts/static/RedHatDisplay-MediumItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-MediumItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bold-italic';
-    src: url('../fonts/static/RedHatDisplay-BoldItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-BoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'black-italic';
-    src: url('../fonts/static/RedHatDisplay-BlackItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-BlackItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'extra-bold-italic';
-    src: url('../fonts/static/RedHatDisplay-ExtraBoldItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-ExtraBoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'regular-italic';
-    src: url('../fonts/static/RedHatDisplay-Italic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'semi-bold-italic';
-    src: url('../fonts/static/RedHatDisplay-SemiBoldItalic.ttf') format('truetype');
+    src: url('../fonts/RedHatDisplay-SemiBoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

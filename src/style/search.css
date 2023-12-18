@@ -1,6 +1,6 @@
 .searchBox {
     display: flex;
-    max-width: 230px;
+    max-width: 180px;
     height: 50px;
     align-items: center;
     justify-content: space-between;
