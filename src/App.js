@@ -18,7 +18,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${lieu}&appid=${API}`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${lieu}&appid=${API}`);
       setDonnees(response.data);
     } catch (erreur) {
       console.error('Erreur lors de la requête API :', erreur);
